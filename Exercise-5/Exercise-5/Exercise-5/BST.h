@@ -27,4 +27,8 @@ int findIndexFromLast(BST* bst, int N);
 
 int sameHeightLeaves(BST* bst);
 
+int heightRec(TreeNode* root);
+
+void destroyTreeNode(TreeNode* root);
+
 #endif // !_BST_ADT_H

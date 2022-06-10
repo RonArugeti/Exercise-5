@@ -44,7 +44,7 @@
 		6E3B1438283A562200C5CDFE /* TreePrintLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreePrintLibrary.h; sourceTree = "<group>"; };
 		6E3B143A283A57E900C5CDFE /* TreePrint.lib */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TreePrint.lib; sourceTree = "<group>"; };
 		6E5622D92840DAF8005F4177 /* TreePrint.dll */ = {isa = PBXFileReference; lastKnownFileType = file; name = TreePrint.dll; path = "../../../../../../../../Documents/Exercise-5/Exercise-5/Exercise-5/Exercise-5/TreePrint.dll"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E5622E32840DD7D005F4177 /* Exercise-5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Exercise-5"; path = "/Users/ronarugeti/Documents/Exercise-5/Exercise-5/Exercise-5/build/Debug/Exercise-5"; sourceTree = "<absolute>"; };
+		6EC3FB5928513F690092DA25 /* Exercise-5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Exercise-5"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ECAE223283BCAFF00D011DB /* BST.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BST.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +66,7 @@
 			children = (
 				6E5622D92840DAF8005F4177 /* TreePrint.dll */,
 				6E3B142F283A55B400C5CDFE /* Exercise-5 */,
+				6EC3FB5928513F690092DA25 /* Exercise-5 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,7 +113,7 @@
 			);
 			name = "Exercise-5";
 			productName = "Exercise-5";
-			productReference = 6E5622E32840DD7D005F4177 /* Exercise-5 */;
+			productReference = 6EC3FB5928513F690092DA25 /* Exercise-5 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -215,6 +216,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fdeclspec";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -267,6 +269,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				"OTHER_CFLAGS[arch=*]" = "-fdeclspec";
 				SDKROOT = macosx;
 			};
 			name = Release;
